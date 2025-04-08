@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Digit Recognizer</title>
+  </head>
+  <body>
+    <h2>Upload an Image or PDF</h2>
+    <input type="file" id="fileInput" />
+    <button onclick="uploadFile()">Predict Digit</button>
+    <div id="previewContainer" style="display: none; margin-top: 20px">
+      <button onclick="showDigit()">Preview Predicted Digit</button>
+      <p id="result" style="font-weight: bold"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
